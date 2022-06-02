@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:flat_cache",
+	"argument": {
+		"type": "minecraft:add",
+		"argument1": "syph:w/xs",
+		"argument2": {
+			"type": "minecraft:mul",
+			"argument1": -1,
+			"argument2": "syph:w/xb"
+		}
+	}
+}

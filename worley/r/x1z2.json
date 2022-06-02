@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:flat_cache",
+	"argument": {
+		"type": "minecraft:add",
+		"argument1": 0.663128882758380,
+		"argument2": {
+			"type": "minecraft:mul",
+			"argument1": 0.372229609082476,
+			"argument2": {
+				"type": "minecraft:abs",
+				"argument": {
+					"type": "minecraft:mul",
+					"argument1": {
+						"type": "minecraft:add",
+						"argument1": 1.509951624942101,
+						"argument2": "syph:w/xb"
+					},
+					"argument2": {
+						"type": "minecraft:add",
+						"argument1": -0.157181777163029,
+						"argument2": "syph:w/zb"
+					}
+				}
+			}
+		}
+	}
+}

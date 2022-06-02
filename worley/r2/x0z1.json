@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:add",
+	"argument1": 0.465033416378288,
+	"argument2": {
+		"type": "minecraft:mul",
+		"argument1": 33.1828798282663,
+		"argument2": "syph:w/f/x0z1"
+	}
+}

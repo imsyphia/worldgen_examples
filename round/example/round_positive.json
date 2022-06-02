@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:add",
+	"argument1": "syph:round/nm",
+	"argument2": {
+		"type": "minecraft:add",
+		"argument1": "syph:round/m",
+		"argument2": "<input>"
+	}
+}

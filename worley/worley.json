@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:flat_cache",
+	"argument": {
+		"type": "minecraft:min",
+		"argument1": "syph:w/d/x0z0",
+		"argument2": {
+			"type": "minecraft:min",
+			"argument1": "syph:w/d/x0z1",
+			"argument2": {
+				"type": "minecraft:min",
+				"argument1": "syph:w/d/x0z2",
+				"argument2": {
+					"type": "minecraft:min",
+					"argument1": "syph:w/d/x1z0",
+					"argument2": {
+						"type": "minecraft:min",
+						"argument1": "syph:w/d/x1z1",
+						"argument2": {
+							"type": "minecraft:min",
+							"argument1": "syph:w/d/x1z2",
+							"argument2": {
+								"type": "minecraft:min",
+								"argument1": "syph:w/d/x2z0",
+								"argument2": {
+									"type": "minecraft:min",
+									"argument1": "syph:w/d/x2z1",
+									"argument2": "syph:w/d/x2z2"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

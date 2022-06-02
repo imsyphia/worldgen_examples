@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:flat_cache",
+	"argument": {
+		"type": "minecraft:mul",
+		"argument1": {
+			"type": "minecraft:mul",
+			"argument1": 2,
+			"argument2": {
+				"type": "minecraft:clamp",
+				"min": -0.5,
+				"max": 0.5,
+				"input": {
+					"type": "minecraft:add",
+					"argument1": 0,
+					"argument2": "syph:w/zs"
+				}
+			}
+		},
+			"argument2": {
+			"type": "minecraft:add",
+			"argument1": "syph:round/n",
+			"argument2": {
+				"type": "minecraft:add",
+				"argument1": "syph:round/m",
+				"argument2": {
+					"type": "minecraft:abs",
+					"argument": "syph:w/zs"
+				}
+			}
+		}
+	}
+}

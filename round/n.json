@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:flat_cache",
+	"argument": {
+		"type": "minecraft:mul",
+		"argument1": -1,
+		"argument2": "syph:magic"
+	}
+}
