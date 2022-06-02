@@ -24,7 +24,7 @@ It is possible for that to not be the case, however this is a very good approxim
 
 Because of the above, a given location only needs to know the position of the points of the current cell and its neighbors.
 A point's position can be deterministically generated based on the location of its cell by some function of the cell's coordinates. (cell coords are \[xb zb\])
-I use a method I quickly hacked together to accomplish this, which is `(x, z) = (abs((x + a) * (z + b)) * c + d) mod 1, z = floor(g * x + h)`, \[r/ f/ r2/ f2/\]
+I use a method I quickly hacked together to accomplish this, which is `(x, z) = (abs((x + a) * (z + b)) * c + d) mod 1, z = (g * x + h) mod 1`, \[r/ f/ r2/ f2/\]
 where a, b, c, d, g, h are constant semi-random numbers. Adding a constant to x and z prevents issues when x or z is 0.
 
 It is also trivial to calculate the cell coordinates of adjacent cells from a given cell, simply by adding or subtracting 1 from x and z, \[xf/ zf/\]
