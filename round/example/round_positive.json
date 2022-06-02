@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:add",
-	"argument1": "syph:round/nm",
+	"argument1": "syph:round/n",
 	"argument2": {
 		"type": "minecraft:add",
 		"argument1": "syph:round/m",
