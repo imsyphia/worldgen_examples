@@ -38,7 +38,7 @@ From here all that is needed is taking the minimum of all those distances \[worl
 
 Scaling the input to the noise \[s xs zs\] allows adjusting the scale of the noise relative to the input coordinates.
 e.g. if worley is sampled at (x, z) in game, every block would be an entire grid cell, which is undesirable.
-However if you scale input by 0.05, the coordinates have to change by 100 to move an entire grid cell,
+However if you scale input by 0.05, the coordinates have to change by 20 to move an entire grid cell,
 which makes the noise much "larger" in relation to the world.
 
 ###### If you made it this far
