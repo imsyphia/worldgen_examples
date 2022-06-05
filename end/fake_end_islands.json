@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:mul",
+	"argument1": 0.0078125,
+	"argument2": {
+		"type": "minecraft:add",
+		"argument1": -8,
+		"argument2": {
+			"type": "minecraft:clamp",
+			"min": -100,
+			"max": 80,
+			"input": {
+				"type": "minecraft:add",
+				"argument1": 100,
+				"argument2": {
+					"type": "minecraft:mul",
+					"argument1": -1,
+					"argument2": "syph:end/distance"
+				}
+			}
+		}
+	}
+}

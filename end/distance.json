@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:add",
+	"argument1": 31.25,
+	"argument2": {
+		"type": "minecraft:add",
+		"argument1": {
+			"type": "minecraft:mul",
+			"argument1": 0.009375,
+			"argument2": "syph:end/distance_squared"
+		},
+		"argument2": {
+			"type": "minecraft:add",
+			"argument1": {
+				"type": "minecraft:mul",
+				"argument1": -3.125e-7,
+				"argument2": {
+					"type": "minecraft:square",
+					"argument": "syph:end/distance_squared"
+				}
+			},
+			"argument2": {
+				"type": "minecraft:mul",
+				"argument1": 6.25e-12,
+				"argument2": {
+					"type": "minecraft:cube",
+					"argument": "syph:end/distance_squared"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:add",
+	"argument1": {
+		"type": "minecraft:square",
+		"argument": "syph:x"
+	},
+	"argument2": {
+		"type": "minecraft:square",
+		"argument": "syph:z"
+	}
+}
