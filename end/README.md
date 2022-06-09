@@ -8,7 +8,7 @@ Dependencies:
 
 ###### Method
 
-The below is moderately technical because I'm not in the business of explaining mathetmatical
+The below is moderately technical because I'm not in the business of explaining mathematical
 concepts that are well documented, such as distance calculation or what a
 [Taylor series](https://en.wikipedia.org/wiki/Taylor_series) is.
 
