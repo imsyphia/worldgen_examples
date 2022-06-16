@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:mul",
+    "argument1": 0.25,
+    "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+            "type": "minecraft:add",
+            "argument1": "syph:center/d1",
+            "argument2": "syph:center/d2"
+        },
+        "argument2": {
+            "type": "minecraft:add",
+            "argument1": "syph:center/d3",
+            "argument2": "syph:center/d4"
+        }
+    }
+}
