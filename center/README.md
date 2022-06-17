@@ -14,7 +14,7 @@ magnitude of the difference will tend to increase.
 In this case, four noises are used and the differences are averaged to provide a consistent value
 regardless of the number of noises.
 
-The value will tend to increase consistently until about 2^(-`firstOctave` - 1) blocks, where it will
+The value will tend to increase consistently until about 2^(-1 - `firstOctave`) blocks, where it will
 then vary randomly, but will _usually_ not reach a very low value, especially with many noises being averaged.
 
 The `noises` folder contains the noise files (that would usually be in `<namespace>/noise`),
