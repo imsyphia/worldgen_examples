@@ -16,7 +16,7 @@
 				}
 			}
 		},
-			"argument2": {
+		"argument2": {
 			"type": "minecraft:add",
 			"argument1": "syph:round/n",
 			"argument2": {
